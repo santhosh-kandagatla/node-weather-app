@@ -5,7 +5,7 @@ const geocode = require('./Utils/goecode.js')
 const forecast = require('./Utils/forecast.js')
 
 const app = express()
-const heroku = process.env.PORT || 3000
+const port = process.env.PORT || 3000
 
 //Define paths for express configration
 const publicDirectoryPath = path.join(__dirname,'../public')
